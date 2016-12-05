@@ -1,0 +1,18 @@
+﻿.menu { text-transform: uppercase; }
+
+.excerpt { margin-left: 20px; margin-right: 20px; }
+
+.copy-container { background: rgba(0, 0, 0, 0.7); border-radius: 20px; min-width: 400px; min-heigh: 700px; padding-top: 20px; padding-bottom: 20px; }
+
+.wid { background: black; }
+
+.menu a:hover { background: rgba(190, 22, 135, 1); }
+
+.header-site.invert .nav-horizontal > ul > li > a, .header-site .nav-horizontal > ul > li > a, .header-search a { border-radius: 0px; }
+
+.body { background: url(http://my2site.ru/wp-content/uploads/2016/12/bg.png); }
+
+#footer { display: none; }
+
+
+
