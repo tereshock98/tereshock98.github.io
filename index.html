@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+
+    <meta name="description" content="">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="media/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="media/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="media/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="media/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="media/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="media/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="media/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="media/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="media/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="media/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="media/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+	<link rel="manifest" href="media/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="media/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/select2.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Main -->
+    <main>
+        
+        <form class="cart">
+            <div class="wrapper">
+
+                <div class="cart-header">
+                    <div class="cart-header__search">
+                        <input type="text" placeholder="Введите ЖК / корпус / № квартиры / № паркинга">
+                    </div>
+                    <div class="cart-header__search-status">
+                        <div class="input">
+                            <span>Все статусы</span>
+                            <img src="media/appearence-top.svg" alt="" class="cart-header__search-status_appearence">
+                        </div>
+                        <div class="cart-header__search-status_dropdown">
+                            <div class="block">
+                                <label>
+                                    <input type="checkbox">
+                                    <span>Забронировано</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox">
+                                    <span>Продано</span>
+                                </label>
+                                <label>
+                                    <input type="checkbox">
+                                    <span>Активно</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="reset" class="cart-header__search-clear"><span>Очистить корзину</span> <img src="media/clear.svg" alt=""></button>
+                </div>
+
+                <div class="cart-buttons">
+                    <label class="cart-buttons__check-all">
+                        <input type="checkbox">
+                        <span>все</span>
+                    </label>
+                    <button type="button" class="cart-buttons__save"><span>Сохранить</span> <img src="media/pdf.svg" alt=""></button>
+                    <button type="submit" class="cart-buttons__send"><span>Отправить</span> <img src="media/send.svg" alt=""></button>
+                    <button type="button" class="cart-buttons__delete"><span>Удалить</span> <img src="media/bin.svg" alt=""></button>
+                </div>
+
+                <div class="cart-list">
+                    <label>
+                        <input type="checkbox" checked>
+                        <span>
+                            <div class="cart-list_item">
+                                <div class="cart-list_item-content">
+                                    <div class="cart-list_item-title">
+                                        <div class="cart-list_item-minispecs">
+                                            <span class="cart-list_item-price">7 733 300 руб.</span>
+                                            <div class="cart-list_item-type" data-info="Подземная встроенно-пристроенная">
+                                                <img src="media/floorplan.svg" alt=""> Квартира
+                                            </div>
+                                        </div>
+                                        <p class="cart-list_item-name">Чистое Небо, <span class="opacity">корпус 10, III кв. 2022 г.</span></p>
+                                    </div>
+                                    <div class="cart-list_item-fullspecs">
+                                        <ul>
+                                            <li>кв. 62</li>
+                                            <li>1 комн. кв.</li>
+                                        </ul>
+                                        <ul>
+                                            <li>234.38 м²</li>
+                                            <li>7 этаж</li>
+                                        </ul>
+                                    </div>
+                                    <p class="cart-list_item-address">Лен. область, Всеволожский район, д. Кудрово, ул. Столичная, д. 5, к. 1</p>
+                                </div>
+                                <div class="cart-list_item-img">
+                                    <div class="cart-list_item-status --red">
+                                        Уступка от юр. лица
+                                    </div>
+                                    <img src="media/plan.png" alt="">
+                                    <p>Добавлено 21/11/2020</p>
+                                </div>
+                            </div>
+                        </span>
+                    </label>
+                    <label>
+                        <input type="checkbox" checked>
+                        <span>
+                            <div class="cart-list_item">
+                                <div class="cart-list_item-content">
+                                    <div class="cart-list_item-title">
+                                        <div class="cart-list_item-minispecs">
+                                            <span class="cart-list_item-price">7 733 300 руб.</span>
+                                            <div class="cart-list_item-type" data-info="Подземная встроенно-пристроенная">
+                                                <img src="media/floorplan.svg" alt=""> Квартира
+                                            </div>
+                                        </div>
+                                        <p class="cart-list_item-name">Зеленый квартал на Пулковских высотах, <span class="opacity">корпус 10, III кв. 2022 г.</span></p>
+                                    </div>
+                                    <div class="cart-list_item-fullspecs">
+                                        <ul>
+                                            <li>кв. 62</li>
+                                            <li>1 комн. кв.</li>
+                                        </ul>
+                                        <ul>
+                                            <li>234.38 м²</li>
+                                            <li>7 этаж</li>
+                                        </ul>
+                                    </div>
+                                    <p class="cart-list_item-address">Комендантский пр., уч. 1 Каменка</p>
+                                </div>
+                                <div class="cart-list_item-img">
+                                    <div class="cart-list_item-status --blue">
+                                        Уступка от физ. лица
+                                    </div>
+                                    <img src="media/plan.png" alt="">
+                                    <p>Добавлено 21/11/2020</p>
+                                </div>
+                            </div>
+                        </span>
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        <span>
+                            <div class="cart-list_item">
+                                <div class="cart-list_item-content">
+                                    <div class="cart-list_item-title">
+                                        <div class="cart-list_item-minispecs">
+                                            <span class="cart-list_item-price">800 300 руб.</span>
+                                            <div class="cart-list_item-type" data-info="Подземная встроенно-пристроенная">
+                                                <img src="media/car.svg" alt=""> Паркинг
+                                            </div>
+                                        </div>
+                                        <p class="cart-list_item-name">Зеленый квартал на Пулковских высотах, <span class="opacity">корпус 10, III кв. 2022 г.</span></p>
+                                    </div>
+                                    <div class="cart-list_item-fullspecs">
+                                        <ul>
+                                            <li>№ 7-10-2 (ПИБ №68)</li>
+                                        </ul>
+                                        <ul>
+                                            <li>15 м²</li>
+                                        </ul>
+                                    </div>
+                                    <p class="cart-list_item-address">Ленинградская область, Всеволожский район, д. Кудрово, ул. Столичная, д. 5, к. 1</p>
+                                </div>
+                                <div class="cart-list_item-img">
+                                    <div class="cart-list_item-status --gray">
+                                        Забронировано
+                                    </div>
+                                    <img src="media/plan.png" alt="">
+                                    <p>Добавлено 21/11/2020</p>
+                                </div>
+                            </div>
+                        </span>
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        <span>
+                            <div class="cart-list_item">
+                                <div class="cart-list_item-content">
+                                    <div class="cart-list_item-title">
+                                        <div class="cart-list_item-minispecs">
+                                            <span class="cart-list_item-price">800 300 руб.</span>
+                                            <div class="cart-list_item-type" data-info="Подземная встроенно-пристроенная">
+                                                <img src="media/car.svg" alt=""> Паркинг
+                                            </div>
+                                        </div>
+                                        <p class="cart-list_item-name">Зеленый квартал на Пулковских высотах, <span class="opacity">корпус 10, III кв. 2022 г.</span></p>
+                                    </div>
+                                    <div class="cart-list_item-fullspecs">
+                                        <ul>
+                                            <li>№ 7-10-2 (ПИБ №68)</li>
+                                        </ul>
+                                        <ul>
+                                            <li>15 м²</li>
+                                        </ul>
+                                    </div>
+                                    <p class="cart-list_item-address">Лен. область, Всеволожский район, д. Кудрово, ул. Столичная, д. 5, к. 1</p>
+                                </div>
+                                <div class="cart-list_item-img">
+                                    <div class="cart-list_item-status --darkGray">
+                                        Продано
+                                    </div>
+                                    <img src="media/plan.png" alt="">
+                                    <p>Добавлено 21/11/2020</p>
+                                </div>
+                            </div>
+                        </span>
+                    </label>
+                </div>
+
+            </div>
+        </form>
+
+    </main>
+    <!-- Main End -->
+
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/select2.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
